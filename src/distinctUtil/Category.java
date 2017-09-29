@@ -1,5 +1,11 @@
 package distinctUtil;
 
+/** 
+ * 类别
+* @author 石茂新 232601982@qq.com 
+* @date 2017年9月29日 下午5:51:11 
+*  
+*/
 public class Category implements DistinctChild{
     
     private String id;
