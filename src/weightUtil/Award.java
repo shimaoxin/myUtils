@@ -1,0 +1,36 @@
+package weightUtil;
+
+public class Award implements WeightAble{
+    
+    private String name;
+    
+    private int weight;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public Award(String name, int weight) {
+        super();
+        this.name = name;
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "Award [name=" + name + ", weight=" + weight + "]";
+    }
+    
+}
